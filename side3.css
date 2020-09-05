@@ -1,0 +1,17 @@
+
+
+#barContainer {
+    height:700px;
+}
+
+#pieContainer {
+    height:700px;
+}
+
+body{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap:10px;
+    margin-top:75px
+}

@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+}
+
+.p1{
+    margin-top:53px;
+}
+
+#map {
+    position: fixed;
+    height:93vh;
+    width: 58.7vw;
+}
+
+#feature {
+    margin-left: 59vw;
+    font-family: sans-serif;
+    background-color:rgba(124, 124, 124, 0.3);
+    color:white;
+    position: absolute;
+    overflow-y: scroll;
+}
+
+p,h3{
+    color:white;
+}
+
+article{
+    padding: 10px 40px;
+    line-height: 25px;
+    opacity: 0.25;
+    font-size: 13px;
+    margin-bottom: 615px;
+    background-color: #444;
+}
+
+article p{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+article.active {
+    opacity: 1;
+}
+
+
+article:first-child {
+    margin-top:250px;
+}
+
+article:last-child {
+    margin-bottom: 276px;
+}
+    
+.marker {
+    background-image: url(./bilder/sverd.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 42px;
+    color:rgb(17, 2, 2);
+    font-family:sans-serif;
+    cursor: pointer;
+}
+
+#buttons {
+    display: flex;
+    gap:0px;
+    position: fixed;
+    margin-top:20px;
+    margin-left:8px;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 1px 4px -1px;
+}
+
+button {
+    border-radius: 1.5px;
+    font-family: sans-serif;
+    font-size:14px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.bliTykkere {
+    font-weight:700;
+}
+
+.bliNormal{
+    font-weight: 400;
+}
+
+.bakgrunn{
+    height:200px;
+    width:100%;
+    background-color:#470e0e;
+}

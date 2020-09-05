@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>World War I</title>
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./side1.css">
+    <script src="https://kit.fontawesome.com/e4ad8fb5bc.js" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet'/>
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="active" class="clip-text ct1" href="./side1.html">Home</a>
+            <a class="clip-text ct1" href="./side2.html">The Battlefields</a>
+            <a class="clip-text ct1" href="./side3.html">Charts</a>
+            <a class="clip-text ct1" href="./side4.html">Timeline of important events</a>
+        </nav>
+    </header>
+    <div id="map"></div>
+    <h1 class="clip-text ct2" >World War I-</h1>
+    <p id="pres" class="clip-text ct2">A visual presentation</p>
+    
+    <h3 id="interract"><i class="fas fa-hand-point-down"></i> Click to interract </h3>
+    <div class="boks b1"></div>
+    <div class="boks b2"></div>
+    <div class="boks b3"></div>
+
+    <p class="tekst t1" href="#">Allied Powers</p>
+    <p class="tekst t2" href="#">Central Powers</p>
+    <p class="tekst t3">Neutral</p>
+    
+<script src="./data/datafil.js"></script>
+<script src="./side1.js"></script>
+</body>
+</html>

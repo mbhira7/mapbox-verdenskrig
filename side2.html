@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>World War I</title>
+    <link rel="stylesheet" href="./side2.css">
+    <link rel="stylesheet" href="./header.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet'/>
+
+</head>
+<body>
+        <header>
+            <nav>
+                <a class="clip-text ct1" href="./side1.html">Home</a>
+                <a id="active" class="clip-text ct1" href="./side2.html">The Battlefields</a>
+                <a class="clip-text ct1" href="./side3.html">Charts</a>
+                <a class="clip-text ct1" href="./side4.html">Timeline of important events</a>
+            </nav>
+        </header>
+    <section class="p1">
+        <div id="map"></div>
+        <div id="buttons">
+            <button class="bliTykkere" id="dark" data-stil="ck5e8zqah13vl1ik7sevb1ll3">Street map</button>   
+            <button id="satellite" data-stil="ck5fynhcw04eq1iqkv6nfvmy3">Satellite</button>   
+        </div>
+        <section id="feature">
+            <article id="somme" class="active">
+                <h3>SOMME BATTLEFIELDS</h3>
+                <p>
+                    Incorporating several World War One sites, these battlefields are the locations at which the infamous Battle of the Somme was fought from July to November 1916. 
+                    The Battle of the Somme was renowned for the exceptionally high number of casualties borne by the Allied forces.
+                </p>
+            </article>
+            
+            <article id="douaumont">
+                <h3>FORT DOUAUMONT</h3>
+                <p>
+                    Built following the Franco-Prussian wars, this fort acted as a shelter for locals during the Battle of Verdun. 
+                    However, in the confusion, it was soon captured and destroyed by the Germans. 
+                    Today, it remains one of the least changed of the World War 1 sites, with visitors able to see it as it was at the end of the war. 
+                </p>
+            </article>
+
+            <article  id="crater">
+                <h3>LOCHNAGAR CRATER</h3>
+                <p>
+                    This is one of the more vivid of World War I sites, it being the vast crater left behind by one of the first mine explosions of the Battle of the Somme on 1 July 1916. 
+                    Set off by British forces the mine which created the Lochnagar Crater was one of the biggest ever detonated at that time 
+                    and Lochnagar itself is an astounding 100 metres in diameter and 30 metres deep.
+                </p>
+            </article>
+
+            <article id="cove">
+                <h3>ANZAC COVE</h3>
+                <p>
+                    One of the most important World War 1 sites of the Gallipoli Campaign in Turkey, Anzac Cove was where Australian and New Zealander troops landed on 25 April 1915. 
+                    The Anzac Cove landings were part of the Gallipoli Campaign, an effort by the Commonwealth and by the French to remove Turkey from World War I. 
+                </p>
+            </article>
+
+            <article id="menin">
+                <h3>MENIN GATE</h3>
+                <p>
+                    This is one of the most significant World War 1 sites in Ypres and is a memorial to the British and Commonwealth troops who went missing in action in Belgium during this conflict. 
+                    Ypres was a vital strategic point during the war and the site of fierce fighting, including three main battles together known as the Battle of Ypres. 
+                    Menin Gate bears the names of 54,896 missing British and Commonwealth soldiers who died without graves.
+                </p>
+            </article>
+
+            <article  id="ossuary">
+                <h3>DOUAUMONT OSSUARY</h3>
+                <p>
+                    This vast memorial, museum and cemetery commemorates those soldiers who lost their lives in the fierce Battle of Verdun. 
+                    The Battle of Verdun was one of the fiercest during World War One, lasting from February 1916 to December 1916. 
+                    This site is home to the bones of 130,000 unknown soldiers, marking a fitting reminder to the savage consequences of this battle and the war as a whole.
+                </p>
+            </article>
+
+            <article  id="ulster">
+                <h3>ULSTER MEMORIAL TOWER</h3>
+                <p>
+                    The Ulster Memorial Tower in Thiepval in France is a 70-foot high stone structure built as a memorial to the men of Ulster who fought and gave their lives during World War I. 
+                    The first memorial to be built on the Western Front, the Ulster Memorial Tower is a replica of Helen’s Tower, an important monument which is located in County Down in Northern Ireland.
+                </p>
+            </article>
+                    
+            <article  id="grey-point">
+                <h3>GREY POINT FORT</h3>
+                <p>
+                    Walter writes to Oberstein and convinces him to meet in the smoking
+                    room of the Charing Cross Hotel where he promises additional plans
+                    for the submarine in exchange for money. The plan works and Holmes
+                    and Watson catch both criminals.
+                </p>
+            </article>
+        </section>
+    </section>
+
+    <section class ="content c1"></section>
+
+<script src="./data/datafil.js"></script>
+<script src= "./side2.js"></script>
+</body>
+</html>

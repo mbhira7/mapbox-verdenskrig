@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(0, 0, 0);
+    max-height: 100vh;
+}
+
+#timeline {
+    margin-top:80px;
+}

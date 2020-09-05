@@ -1,0 +1,128 @@
+#map{
+    width:100vw;
+    height:100vh;
+}
+
+.boks{
+    position: absolute;
+    width:13px;
+    height:13px;
+    left:1rem;
+    cursor: pointer;
+}
+
+.b1{
+    background-color: green;
+    bottom:8.2rem;
+}
+
+.b2{
+    background-color: red;
+    bottom:6.2rem;
+}
+
+
+.b3{
+    background-color: #383838;
+    bottom:4.2rem;
+}
+
+.tekst{
+    position: absolute;
+    left:2.4rem;
+    color:rgb(204, 202, 202);
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.t1{
+    bottom:7rem;
+}
+
+.t2{
+    bottom:5rem;
+}
+
+.t3{
+    bottom:3rem;
+}
+
+h1{
+    position: fixed;
+    top:4rem;
+    left:38rem;
+    color:white;
+}
+
+
+#pres{
+    position: fixed;
+    top:6.5rem;
+    left:39rem;
+}
+
+
+.popup-bilde {
+    width:30px;
+}
+
+.popup-div{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    place-items: center;
+    gap:8px;
+}
+
+.ct2{
+    justify-self: start;
+}
+
+
+.mapboxgl-popup-content {
+    background-color: rgba(0, 0, 0) !important;
+    padding: 0px 10px 0px !important;
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
+    border-bottom-color: rgb(41, 3, 3) !important;
+}
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+    border-top-color: rgb(0, 0, 0) !important;
+}
+
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+    border-right-color: rgb(0, 0, 0) !important;
+}
+
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+    border-left-color: rgb(0, 0, 0) !important;
+}
+
+.mob {
+    color:rgb(170, 170, 170);
+    margin-top: 0px;
+}
+
+#interract{
+    color:rgb(202, 202, 202);
+    position: absolute;
+    left:1rem;
+    font-family: sans-serif;
+    bottom:9rem;
+    font-size: 17px
+}
+
+/*.div-knapp{
+    border:solid 1px white;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 14rem;
+    left: 0.5rem;
+}*/
+
+i{
+    color:rgb(202, 202, 202);
+    font-size:17.5px;
+}
